@@ -18,10 +18,10 @@ git commit -m 'deploy'
 
 # git push -f git@github.com/codeBlog2023.git master:gh-pages  #提交到这个分支
 # 如果部署到 https://<USERNAME>.github.io
-git push -f git@github.com:Sean0717/Sean.github.io.git master
+# git push -f git@github.com:Sean0717/Sean.github.io.git master
 
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:Sean0717/Sean.github.io.git master:gh-pages
+git push -f git@github.com:Sean0717/Sean.github.io.git master:gh-pages
 
 cd -
 
