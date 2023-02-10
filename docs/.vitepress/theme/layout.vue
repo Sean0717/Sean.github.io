@@ -22,18 +22,20 @@ const { frontmatter } = useData() //这里的frontmatter就是各个md文件中�
 </template>
 
 <style>
-	header {
-		width: 100%;
-		height: 250px;
+.VPNav {
+	background-color: #242424;
+}
+	#VPContent {
+		height: 250px !important;
 		background-image: url('../../public/banner.jpeg');
 		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
+		background-size: contain;
+		background-position: top;
+
 	}
   .page-info{
     font-size: 14px;
     color: #7f7f7f;
     margin-right: 10px;
-		z-index: 99;
   }
 </style>
